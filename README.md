@@ -1,7 +1,5 @@
 # react-sass-boilerplate
 
----
-
 ## Install
 
 ```
