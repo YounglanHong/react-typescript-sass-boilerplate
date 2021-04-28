@@ -1,0 +1,61 @@
+{
+  "name": "react-typescript-sass-boilerplate",
+  "version": "0.1.0",
+  "description": "react typescript sass boilerplate",
+  "keywords": [
+    "react",
+    "typescript",
+    "sass",
+    "prettier",
+    "scss-lint"
+  ],
+  "license": "MIT",
+  "author": "AUTHOR_NAME <AUTHOR_EMAIL@email.com> (https://AUTHOR_URL.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YounglanHong/react-typescript-sass-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YounglanHong/react-typescript-sass-boilerplate/issues"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^12.20.11",
+    "@types/react": "^17.0.4",
+    "@types/react-dom": "^17.0.3",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.2.4",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "sass": "node-sass -wr styles/main.scss ./style.css"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
