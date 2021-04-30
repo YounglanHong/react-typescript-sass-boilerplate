@@ -14,6 +14,21 @@ $ npm start
 
 Go to http://localhost:3000
 
+```
+$ npm run sass
+```
+
+Compile SCSS to CSS
+
+```js
+// package.json
+"scripts": {
+    "sass": "node-sass -wr SCSS-FILE_PATH CSS-FILE_PATH"
+  },
+```
+
+Customize file path
+
 ## Production
 
 Set the `NODE_ENV` to production
