@@ -38,7 +38,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass": "node-sass -wr styles/main.scss ./style.css"
+    "sass": "node-sass -wr --source-map true styles/main.scss ./style.css"
   },
   "eslintConfig": {
     "extends": [
