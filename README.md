@@ -23,11 +23,13 @@ Compile SCSS to CSS
 ```js
 // package.json
 "scripts": {
-    "sass": "node-sass -wr SCSS-FILE_PATH CSS-FILE_PATH"
+    "sass": "node-sass -wr --source-map true SCSS-FILE_PATH CSS-FILE_PATH"
   },
 ```
 
 Customize file path
+
+(※ [Options](https://www.npmjs.com/package/node-sass#command-line-interface): watch, recursive, source-map)
 
 ## Production
 
